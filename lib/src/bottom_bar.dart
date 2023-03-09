@@ -276,7 +276,8 @@ class _StylishBottomBarState extends State<StylishBottomBar>
       listWidget = _bubbleBarTiles();
     }
 
-    bool isUsingMaterial3 = Theme.of(context).useMaterial3;
+//     bool isUsingMaterial3 = Theme.of(context).useMaterial3;
+    bool isUsingMaterial3 = false;
 
     return Semantics(
       explicitChildNodes: true,
